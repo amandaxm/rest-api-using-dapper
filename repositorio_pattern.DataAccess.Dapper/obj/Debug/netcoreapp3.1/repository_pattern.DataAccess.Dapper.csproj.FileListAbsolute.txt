@@ -1,0 +1,12 @@
+C:\Users\java\Documents\repositorio_pattern\repositorio_pattern.DataAccess.Dapper\bin\Debug\netcoreapp3.1\repository_pattern.DataAccess.Dapper.deps.json
+C:\Users\java\Documents\repositorio_pattern\repositorio_pattern.DataAccess.Dapper\bin\Debug\netcoreapp3.1\repository_pattern.DataAccess.Dapper.dll
+C:\Users\java\Documents\repositorio_pattern\repositorio_pattern.DataAccess.Dapper\bin\Debug\netcoreapp3.1\repository_pattern.DataAccess.Dapper.pdb
+C:\Users\java\Documents\repositorio_pattern\repositorio_pattern.DataAccess.Dapper\bin\Debug\netcoreapp3.1\repository_pattern.Domain.dll
+C:\Users\java\Documents\repositorio_pattern\repositorio_pattern.DataAccess.Dapper\bin\Debug\netcoreapp3.1\repository_pattern.Domain.pdb
+C:\Users\java\Documents\repositorio_pattern\repositorio_pattern.DataAccess.Dapper\obj\Debug\netcoreapp3.1\repository_pattern.DataAccess.Dapper.csproj.AssemblyReference.cache
+C:\Users\java\Documents\repositorio_pattern\repositorio_pattern.DataAccess.Dapper\obj\Debug\netcoreapp3.1\repository_pattern.DataAccess.Dapper.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\java\Documents\repositorio_pattern\repositorio_pattern.DataAccess.Dapper\obj\Debug\netcoreapp3.1\repository_pattern.DataAccess.Dapper.AssemblyInfoInputs.cache
+C:\Users\java\Documents\repositorio_pattern\repositorio_pattern.DataAccess.Dapper\obj\Debug\netcoreapp3.1\repository_pattern.DataAccess.Dapper.AssemblyInfo.cs
+C:\Users\java\Documents\repositorio_pattern\repositorio_pattern.DataAccess.Dapper\obj\Debug\netcoreapp3.1\repository_pattern.DataAccess.Dapper.csproj.CoreCompileInputs.cache
+C:\Users\java\Documents\repositorio_pattern\repositorio_pattern.DataAccess.Dapper\obj\Debug\netcoreapp3.1\repository_pattern.DataAccess.Dapper.dll
+C:\Users\java\Documents\repositorio_pattern\repositorio_pattern.DataAccess.Dapper\obj\Debug\netcoreapp3.1\repository_pattern.DataAccess.Dapper.pdb

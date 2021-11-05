@@ -4,15 +4,15 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace repositorio_pattern.DataAccess.Dapper
+namespace repository_pattern.DataAccess.Dapper
 {
     public interface IDeveloperRepository
     {
-        Task<IEnumerable<Developer>> GetAllDevelopersAsync();
-        Task<Developer> GetDeveloperByIdAsync();
-        Task<Developer> GetDeveloperByEmailAsync();
-        void AddDeveloper(Developer developer);
-        void UpdateDeveloper(Developer developer);
-        void DeleteDeveloper(int id);
+        public Task<IEnumerable<Developer>> GetAllDevelopersAsync();
+        public Task<Developer> GetDeveloperByIdAsync(int id);
+        public Task<Developer> GetDeveloperByEmailAsync(string email);
+        public void AddDeveloper(Developer developer);
+        public void UpdateDeveloper(Developer developer);
+        public void DeleteDeveloper(int id);
     }
 }

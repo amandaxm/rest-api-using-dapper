@@ -1,0 +1,10 @@
+C:\Users\java\Documents\repositorio_pattern\repositorio_pattern.Domain\bin\Debug\netcoreapp3.1\repository_pattern.Domain.deps.json
+C:\Users\java\Documents\repositorio_pattern\repositorio_pattern.Domain\bin\Debug\netcoreapp3.1\repository_pattern.Domain.dll
+C:\Users\java\Documents\repositorio_pattern\repositorio_pattern.Domain\bin\Debug\netcoreapp3.1\repository_pattern.Domain.pdb
+C:\Users\java\Documents\repositorio_pattern\repositorio_pattern.Domain\obj\Debug\netcoreapp3.1\repository_pattern.Domain.csproj.AssemblyReference.cache
+C:\Users\java\Documents\repositorio_pattern\repositorio_pattern.Domain\obj\Debug\netcoreapp3.1\repository_pattern.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\java\Documents\repositorio_pattern\repositorio_pattern.Domain\obj\Debug\netcoreapp3.1\repository_pattern.Domain.AssemblyInfoInputs.cache
+C:\Users\java\Documents\repositorio_pattern\repositorio_pattern.Domain\obj\Debug\netcoreapp3.1\repository_pattern.Domain.AssemblyInfo.cs
+C:\Users\java\Documents\repositorio_pattern\repositorio_pattern.Domain\obj\Debug\netcoreapp3.1\repository_pattern.Domain.csproj.CoreCompileInputs.cache
+C:\Users\java\Documents\repositorio_pattern\repositorio_pattern.Domain\obj\Debug\netcoreapp3.1\repository_pattern.Domain.dll
+C:\Users\java\Documents\repositorio_pattern\repositorio_pattern.Domain\obj\Debug\netcoreapp3.1\repository_pattern.Domain.pdb

@@ -1,0 +1,15 @@
+C:\Users\java\Documents\repositorio_pattern\repositorio_pattern.Services\bin\Debug\netcoreapp3.1\repository_pattern.Services.deps.json
+C:\Users\java\Documents\repositorio_pattern\repositorio_pattern.Services\bin\Debug\netcoreapp3.1\repository_pattern.Services.dll
+C:\Users\java\Documents\repositorio_pattern\repositorio_pattern.Services\bin\Debug\netcoreapp3.1\repository_pattern.Services.pdb
+C:\Users\java\Documents\repositorio_pattern\repositorio_pattern.Services\bin\Debug\netcoreapp3.1\repository_pattern.DataAccess.Dapper.dll
+C:\Users\java\Documents\repositorio_pattern\repositorio_pattern.Services\bin\Debug\netcoreapp3.1\repository_pattern.Domain.dll
+C:\Users\java\Documents\repositorio_pattern\repositorio_pattern.Services\bin\Debug\netcoreapp3.1\repository_pattern.DataAccess.Dapper.pdb
+C:\Users\java\Documents\repositorio_pattern\repositorio_pattern.Services\bin\Debug\netcoreapp3.1\repository_pattern.Domain.pdb
+C:\Users\java\Documents\repositorio_pattern\repositorio_pattern.Services\obj\Debug\netcoreapp3.1\repository_pattern.Services.csproj.AssemblyReference.cache
+C:\Users\java\Documents\repositorio_pattern\repositorio_pattern.Services\obj\Debug\netcoreapp3.1\repository_pattern.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\java\Documents\repositorio_pattern\repositorio_pattern.Services\obj\Debug\netcoreapp3.1\repository_pattern.Services.AssemblyInfoInputs.cache
+C:\Users\java\Documents\repositorio_pattern\repositorio_pattern.Services\obj\Debug\netcoreapp3.1\repository_pattern.Services.AssemblyInfo.cs
+C:\Users\java\Documents\repositorio_pattern\repositorio_pattern.Services\obj\Debug\netcoreapp3.1\repository_pattern.Services.csproj.CoreCompileInputs.cache
+C:\Users\java\Documents\repositorio_pattern\repositorio_pattern.Services\obj\Debug\netcoreapp3.1\repository_pattern.Services.dll
+C:\Users\java\Documents\repositorio_pattern\repositorio_pattern.Services\obj\Debug\netcoreapp3.1\repository_pattern.Services.pdb
+C:\Users\java\Documents\repositorio_pattern\repositorio_pattern.Services\obj\Debug\netcoreapp3.1\repository_pattern.Services.csproj.CopyComplete

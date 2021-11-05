@@ -11,6 +11,9 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using repositorio_pattern.DataAccess.Dapper;
+using repository_pattern.DataAccess.Dapper;
+using repository_pattern.Services;
 
 namespace repositorio_pattern
 {
@@ -28,10 +31,9 @@ namespace repositorio_pattern
         {
 
             services.AddControllers();
-            services.AddSwaggerGen(c =>
-            {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "repositorio_pattern", Version = "v1" });
-            });
+            services.AddScoped<IDeveloperService, DeveloperService>();
+            services.AddScoped<IDeveloperRepository, DeveloperRepository>();
+          
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -40,9 +42,7 @@ namespace repositorio_pattern
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-                app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "repositorio_pattern v1"));
-            }
+                 }
 
             app.UseHttpsRedirection();
 

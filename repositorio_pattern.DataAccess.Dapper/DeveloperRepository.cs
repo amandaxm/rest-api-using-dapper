@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.Configuration;
+﻿using Dapper;
+using Microsoft.Extensions.Configuration;
 using repositorio_pattern.Domain;
 using System;
 using System.Collections.Generic;
@@ -6,10 +7,11 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Text;
 using System.Threading.Tasks;
+using repository_pattern.DataAccess.Dapper;
 
 namespace repositorio_pattern.DataAccess.Dapper
 {
-    public class DeveloperRepository: IDeveloperRepository
+    public class DeveloperRepository : IDeveloperRepository
     {
         protected readonly IConfiguration _config;
 
@@ -19,38 +21,122 @@ namespace repositorio_pattern.DataAccess.Dapper
         }
         public IDbConnection Connection
         {
-            get {
-                return new SqlConnection(_config.GetConnectionString("ConnectionStrings"));
+            get
+            {
+                return new SqlConnection(_config.GetConnectionString("Default"));
             }
         }
-        Task<IEnumerable<Developer>> IDeveloperRepository.GetAllDevelopersAsync()
+
+
+
+
+        public async Task<Developer> GetDeveloperByIdAsync(int id)
         {
-            throw new NotImplementedException();
+            try
+            {
+                using (IDbConnection dbConnection = Connection)
+                {
+                    dbConnection.Open();
+                    string query = @"SELECT Id,DeveloperName,Email,GithubURL,ImageURL, Department,JoinedDate FROM developer WHERE Id =@Id";
+                    return await dbConnection.QueryFirstOrDefaultAsync<Developer>(query, new { Id = id });
+                }
+
+            }
+            catch
+            {
+
+                throw;
+            }
         }
 
-        Task<Developer> IDeveloperRepository.GetDeveloperByIdAsync()
+        public async Task<Developer> GetDeveloperByEmailAsync(string email)
         {
-            throw new NotImplementedException();
+            try
+            {
+                using (IDbConnection dbConnection = Connection)
+                {
+                    dbConnection.Open();
+                    string query = @"SELECT Id,DeveloperName,Email,GithubURL,ImageURL, Department,JoinedDate FROM developer WHERE Email =@Email";
+                    return await dbConnection.QueryFirstOrDefaultAsync<Developer>(query, new { Email = email });
+                }
+
+            }
+            catch
+            {
+
+                throw;
+            }
         }
 
-        Task<Developer> IDeveloperRepository.GetDeveloperByEmailAsync()
+        public void UpdateDeveloper(Developer developer)
         {
-            throw new NotImplementedException();
+
+            try
+            {
+                using (IDbConnection dbConnection = Connection)
+                {
+                    dbConnection.Open();
+                    string query = @"UPDATE developer SET DeveloperName = @DeveloperName,Email = @Email,GithubURL = @GithubURL,ImageURL = @ImageURL, Department = @Department,JoinedDate = @JoinedDate";
+                    dbConnection.Execute(query, developer);
+                }
+
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+
         }
 
-        void IDeveloperRepository.AddDeveloper(Developer developer)
+        public async Task<IEnumerable<Developer>> GetAllDevelopersAsync()
         {
-            throw new NotImplementedException();
+            try
+            {
+                using (IDbConnection dbConnection = Connection)
+                {
+                    dbConnection.Open();
+                    string query = @"SELECT * FROM developer";
+                    return await dbConnection.QueryAsync<Developer>(query);
+                }
+
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
         }
 
-        void IDeveloperRepository.UpdateDeveloper(Developer developer)
+        public void DeleteDeveloper(int id)
         {
-            throw new NotImplementedException();
+            try
+            {
+                using (IDbConnection dbConnection = Connection)
+                {
+                    dbConnection.Open();
+                    string query = @"DELETE FROM developer WHERE Id =@Id";
+                    dbConnection.Execute(query, new { Id = id });
+                }
+
+            }
+            catch { }
         }
 
-        void IDeveloperRepository.DeleteDeveloper(int id)
+        public void AddDeveloper(Developer developer)
         {
-            throw new NotImplementedException();
+            try
+            {
+                using (IDbConnection dbConnection = Connection)
+                {
+                    dbConnection.Open();
+                    string query = @"INSERT INTO developer(DeveloperName,Email,GithubURL,ImageURL, Department) VALUES (@DeveloperName,@Email,@GithubURL,@ImageURL,@Department)";
+                    dbConnection.Execute(query, developer);
+                }
+
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
         }
     }
 }

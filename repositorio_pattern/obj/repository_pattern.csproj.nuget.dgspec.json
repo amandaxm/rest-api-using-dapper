@@ -153,7 +153,14 @@
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\java\\Documents\\repositorio_pattern\\repositorio_pattern.DataAccess.Dapper\\repository_pattern.DataAccess.Dapper.csproj": {
+                "projectPath": "C:\\Users\\java\\Documents\\repositorio_pattern\\repositorio_pattern.DataAccess.Dapper\\repository_pattern.DataAccess.Dapper.csproj"
+              },
+              "C:\\Users\\java\\Documents\\repositorio_pattern\\repositorio_pattern.Domain\\repository_pattern.Domain.csproj": {
+                "projectPath": "C:\\Users\\java\\Documents\\repositorio_pattern\\repositorio_pattern.Domain\\repository_pattern.Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

@@ -277,6 +277,10 @@
       "repository_pattern.Services/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "repository_pattern.DataAccess.Dapper": "1.0.0",
+          "repository_pattern.Domain": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/repository_pattern.Services.dll": {}
         },
