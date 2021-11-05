@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "t/0M1AbnBK4x4PsPkT0PpczdQJtnmJYc+Xm/mc5xYxOjXyCt2OAOXsrkopQw6Ay0Kjpqg2eNYwaN/wlx0IvTPQ==",
+  "dgSpecHash": "OPW88Ns9gu+ZGpOQ303ngtsJfEd86TnnIM6VcqaMDjZcR1ZRtUFKjY+8yP+UXmOrqnsUkVOlAz5Kwb891hLDHA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\java\\Documents\\repositorio_pattern\\repositorio_pattern.DataAccess.Dapper\\repositorio_pattern.DataAccess.Dapper.csproj",
+  "projectFilePath": "C:\\Users\\java\\Documents\\repositorio_pattern\\repositorio_pattern.DataAccess.Dapper\\repository_pattern.DataAccess.Dapper.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\java\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
     "C:\\Users\\java\\.nuget\\packages\\microsoft.extensions.configuration\\5.0.0\\microsoft.extensions.configuration.5.0.0.nupkg.sha512",

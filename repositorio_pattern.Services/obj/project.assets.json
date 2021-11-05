@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\java\\Documents\\repositorio_pattern\\repositorio_pattern.Services\\repositorio_pattern.Services.csproj",
-      "projectName": "repositorio_pattern.Services",
-      "projectPath": "C:\\Users\\java\\Documents\\repositorio_pattern\\repositorio_pattern.Services\\repositorio_pattern.Services.csproj",
+      "projectUniqueName": "C:\\Users\\java\\Documents\\repositorio_pattern\\repositorio_pattern.Services\\repository_pattern.Services.csproj",
+      "projectName": "repository_pattern.Services",
+      "projectPath": "C:\\Users\\java\\Documents\\repositorio_pattern\\repositorio_pattern.Services\\repository_pattern.Services.csproj",
       "packagesPath": "C:\\Users\\java\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\java\\Documents\\repositorio_pattern\\repositorio_pattern.Services\\obj\\",
       "projectStyle": "PackageReference",

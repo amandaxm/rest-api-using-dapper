@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "repositorio_pattern", "repositorio_pattern\repositorio_pattern.csproj", "{00EFAEFC-36D3-41B4-9AEB-9946D6C699E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "repository_pattern", "repositorio_pattern\repository_pattern.csproj", "{00EFAEFC-36D3-41B4-9AEB-9946D6C699E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "repositorio_pattern.Domain", "repositorio_pattern.Domain\repositorio_pattern.Domain.csproj", "{9EB42F0A-E32D-42D2-9C1C-6FCC5A082203}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "repository_pattern.Domain", "repositorio_pattern.Domain\repository_pattern.Domain.csproj", "{9EB42F0A-E32D-42D2-9C1C-6FCC5A082203}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "repositorio_pattern.DataAccess.Dapper", "repositorio_pattern.DataAccess.Dapper\repositorio_pattern.DataAccess.Dapper.csproj", "{BA5D0F6A-2C5B-4A3D-B318-A052E7C0CA8C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "repository_pattern.DataAccess.Dapper", "repositorio_pattern.DataAccess.Dapper\repository_pattern.DataAccess.Dapper.csproj", "{BA5D0F6A-2C5B-4A3D-B318-A052E7C0CA8C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "repositorio_pattern.Services", "repositorio_pattern.Services\repositorio_pattern.Services.csproj", "{0962E039-DEAF-4B9F-A9A4-95647039F11B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "repository_pattern.Services", "repositorio_pattern.Services\repository_pattern.Services.csproj", "{0962E039-DEAF-4B9F-A9A4-95647039F11B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

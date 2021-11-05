@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\java\\Documents\\repositorio_pattern\\repositorio_pattern.Domain\\repositorio_pattern.Domain.csproj",
-      "projectName": "repositorio_pattern.Domain",
-      "projectPath": "C:\\Users\\java\\Documents\\repositorio_pattern\\repositorio_pattern.Domain\\repositorio_pattern.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\java\\Documents\\repositorio_pattern\\repositorio_pattern.Domain\\repository_pattern.Domain.csproj",
+      "projectName": "repository_pattern.Domain",
+      "projectPath": "C:\\Users\\java\\Documents\\repositorio_pattern\\repositorio_pattern.Domain\\repository_pattern.Domain.csproj",
       "packagesPath": "C:\\Users\\java\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\java\\Documents\\repositorio_pattern\\repositorio_pattern.Domain\\obj\\",
       "projectStyle": "PackageReference",

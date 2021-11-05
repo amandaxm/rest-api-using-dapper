@@ -186,14 +186,14 @@
           }
         }
       },
-      "repositorio_pattern.Domain/1.0.0": {
+      "repository_pattern.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "compile": {
-          "bin/placeholder/repositorio_pattern.Domain.dll": {}
+          "bin/placeholder/repository_pattern.Domain.dll": {}
         },
         "runtime": {
-          "bin/placeholder/repositorio_pattern.Domain.dll": {}
+          "bin/placeholder/repository_pattern.Domain.dll": {}
         }
       }
     }
@@ -650,10 +650,10 @@
         "version.txt"
       ]
     },
-    "repositorio_pattern.Domain/1.0.0": {
+    "repository_pattern.Domain/1.0.0": {
       "type": "project",
-      "path": "../repositorio_pattern.Domain/repositorio_pattern.Domain.csproj",
-      "msbuildProject": "../repositorio_pattern.Domain/repositorio_pattern.Domain.csproj"
+      "path": "../repositorio_pattern.Domain/repository_pattern.Domain.csproj",
+      "msbuildProject": "../repositorio_pattern.Domain/repository_pattern.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -661,7 +661,7 @@
       "Dapper >= 2.0.123",
       "Microsoft.Extensions.Configuration >= 5.0.0",
       "System.Data.SqlClient >= 4.8.3",
-      "repositorio_pattern.Domain >= 1.0.0"
+      "repository_pattern.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -670,9 +670,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\java\\Documents\\repositorio_pattern\\repositorio_pattern.DataAccess.Dapper\\repositorio_pattern.DataAccess.Dapper.csproj",
-      "projectName": "repositorio_pattern.DataAccess.Dapper",
-      "projectPath": "C:\\Users\\java\\Documents\\repositorio_pattern\\repositorio_pattern.DataAccess.Dapper\\repositorio_pattern.DataAccess.Dapper.csproj",
+      "projectUniqueName": "C:\\Users\\java\\Documents\\repositorio_pattern\\repositorio_pattern.DataAccess.Dapper\\repository_pattern.DataAccess.Dapper.csproj",
+      "projectName": "repository_pattern.DataAccess.Dapper",
+      "projectPath": "C:\\Users\\java\\Documents\\repositorio_pattern\\repositorio_pattern.DataAccess.Dapper\\repository_pattern.DataAccess.Dapper.csproj",
       "packagesPath": "C:\\Users\\java\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\java\\Documents\\repositorio_pattern\\repositorio_pattern.DataAccess.Dapper\\obj\\",
       "projectStyle": "PackageReference",
@@ -691,8 +691,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\java\\Documents\\repositorio_pattern\\repositorio_pattern.Domain\\repositorio_pattern.Domain.csproj": {
-              "projectPath": "C:\\Users\\java\\Documents\\repositorio_pattern\\repositorio_pattern.Domain\\repositorio_pattern.Domain.csproj"
+            "C:\\Users\\java\\Documents\\repositorio_pattern\\repositorio_pattern.Domain\\repository_pattern.Domain.csproj": {
+              "projectPath": "C:\\Users\\java\\Documents\\repositorio_pattern\\repositorio_pattern.Domain\\repository_pattern.Domain.csproj"
             }
           }
         }

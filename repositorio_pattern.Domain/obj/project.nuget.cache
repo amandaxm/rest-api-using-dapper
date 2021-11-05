@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KirgbRWa5l2heX1CtUzeMB+O9Ov16wflomagVzijbdZNvI0wfCKT2UrMDxf19QmdPpoY0T24iiPslDex8KuJ8Q==",
+  "dgSpecHash": "nwfvk0He+ZDrPV5s4NCORbsf/kLURt9J3+msZKaJrVsH8lyyzHNAmQvp25z4kdlEBEWGL3t1hNtYoHryJcIBWA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\java\\Documents\\repositorio_pattern\\repositorio_pattern.Domain\\repositorio_pattern.Domain.csproj",
+  "projectFilePath": "C:\\Users\\java\\Documents\\repositorio_pattern\\repositorio_pattern.Domain\\repository_pattern.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
